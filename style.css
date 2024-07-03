@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(images/background8.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+nav{
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #FCA3B7;
+    transition: .8s;
+    text-decoration: underline;
+}
+
+header{
+    width: 70%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 17%;
+    position: relative;
+    color: white;
+    line-height: 1.5;
+    word-spacing: 1.4px;
+}
+
+h1{
+    color: #FCA3B7;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 34px;
+    font-family: serif;
+}
+
+p{
+    font-size: 18px;
+    font-weight: normal;        
+}
+
+footer{
+    font-size: 50px;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: auto;
+    position: relative;
+    color: white;
+    line-height: 1.5;
+    word-spacing: 1.4px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: #FCA3B7;
+    transition: .5s;
+}

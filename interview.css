@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(images/background8.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+nav{
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #FCA3B7;
+    transition: .8s;
+    text-decoration: underline;
+}
+.content{
+    border-collapse: collapse;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17%;
+}
+
+.interview{
+    border-collapse: collapse;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: white;
+    line-height: 1.5;
+    word-spacing: 1.4px;
+}
+
+.interview td, .interview th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #FDDF95;
+    border: 3px solid black;
+}
+
+h1{
+    color: #FCA3B7;
+    font-size: 70px;
+    font-weight: bold;
+}
